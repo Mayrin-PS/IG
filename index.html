@@ -22,13 +22,15 @@
                     id="username" type="text" placeholder="Phone number, username, or email" required>
             </div>
             <div class="mb-5 flex justify-center">
-                <input
-                    class="shadow appearance-none border rounded w-72 py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none 
-                    focus:shadow-outline"
-                    id="password" type="password" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
-                    title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
-                    <i class="bi bi-eye-fill absolute mt-0 mb-2 ml-56 text-2xl text-fb" id="showbtn" onclick="showhidepass()"></i>
-                    <i class="bi bi-eye-slash-fill absolute mt-0 mb-2 ml-56 text-2xl text-fb hidden" id="hidebtn" onclick="showhidepass()"></i>           
+                <input class="shadow appearance-none border rounded w-72 py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none 
+                    focus:shadow-outline" id="password" type="password" placeholder="Password"
+                    pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                    title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+                    required>
+                <i class="bi bi-eye-fill absolute mt-0 mb-2 ml-56 text-2xl text-fb" id="showbtn"
+                    onclick="showhidepass()"></i>
+                 <i class="bi bi-eye-slash-fill absolute mt-0 mb-2 ml-56 text-2xl text-fb hidden" id="hidebtn"
+                    onclick="showhidepass()"></i>
             </div>
             <div class="flex flex-col justify-center">
                 <div id="message" class="bg-gray-300 px-2 py-2 rounded-md mb-2 hidden">
@@ -38,7 +40,7 @@
                     <p id="number" class="invalid">A <b>number</b></p>
                 </div>
             </div>
-      
+
             <div class="flex justify-center">
                 <button class="bg-blue-600 hover:bg-blue-800 text-white font-bold py-2 px-7
                     rounded focus:outline-none focus:shadow-outline" id="loginbtn"> Log In </button>
@@ -66,17 +68,18 @@
     <div class="flex justify-center mt-2">
         <p class="text-gray-900 text-sm"> Get the app. </p>
     </div>
-    <div class = "flex flex-row justify-center">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Download_on_the_App_Store_Badge.svg/2560px-Download_on_the_App_Store_Badge.svg.png" alt="apple"
-        class="w-40 h-14 mt-3">
-        <img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" alt="playstore" 
-        class="w-44 h-20">
+    <div class="flex flex-row justify-center">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Download_on_the_App_Store_Badge.svg/2560px-Download_on_the_App_Store_Badge.svg.png"
+            alt="apple" class="w-40 h-14 mt-3">
+        <img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" alt="playstore"
+            class="w-44 h-20">
     </div>
     <div class="flex justify-center mt-2 mb-5">
-        <footer> 
+        <footer>
             <p class="text-sm text-gray-500 font-thin"> © 2022 Instagram from Meta </p>
         </footer>
     </div>
     <script src="index.js"></script>
 </body>
+
 </html>
